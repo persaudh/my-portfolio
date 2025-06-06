@@ -1,8 +1,9 @@
 import Head from 'next/head';
+import Layout from '@/components/Layout';
 
 export default function Projects() {
   return (
-    <>
+    <Layout>
       <Head>
         <title>Projects | Hemraj Persaud</title>
       </Head>
@@ -27,6 +28,6 @@ export default function Projects() {
             </div>
         </div>
       </main>
-    </>
+    </Layout>
   );
 }
