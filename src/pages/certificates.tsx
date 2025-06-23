@@ -1,5 +1,6 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
+import Image from "next/image";
 const Certificate = () => {
   return (
     <Layout>
@@ -13,6 +14,13 @@ const Certificate = () => {
 
         <ul className="grid gap-6 md:grid-cols-2">
           <li className="p-6 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <Image
+              src="/images/certificates/AWSCertifiedCloudPractitionerIcon.png"
+              alt="AWS Certified Cloud Practitioner"
+              width={200}
+              height={100}
+              className="object-contain mb-4"
+            />
             <h2 className="text-xl font-semibold text-gray-800 mb-2">
               AWS Certified Cloud Practitioner
             </h2>
