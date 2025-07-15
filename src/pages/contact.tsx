@@ -12,7 +12,7 @@ const Contact = () => {
         </h1>
         <div className="text-center mb-10">
           <p className="text-lg text-gray-700 mb-4">
-            If you'd like to get in touch, feel free to reach out!
+            If you&apos;d like to get in touch, feel free to reach out!
           </p>
           <ul className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-gray-600">
             <li className="">
@@ -86,7 +86,7 @@ const Contact = () => {
             </label>
             <textarea
               id="message"
-              rows="4"
+              rows={4}
               className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2"
               placeholder="Your Message"
             ></textarea>

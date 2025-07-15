@@ -1,7 +1,8 @@
 import Head from "next/head";
+import {ProjectsTileProps} from "./project-tiles.types";
 
 
-const ProjectTile = ({projects, title }) => {
+const ProjectTile: React.FC<ProjectsTileProps> = ({ projects, title }) => {
   return (
     <>
       <Head>

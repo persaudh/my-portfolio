@@ -7,7 +7,7 @@ export default function Home() {
           Welcome to My Portfolio
         </h1>
         <p className="text-lg text-gray-700 mb-8">
-          Hi, I'm Hemraj Persaud, a full-stack developer with a passion for
+          Hi, I&apos;m Hemraj Persaud, a full-stack developer with a passion for
           building web applications.
         </p>
       </div>
